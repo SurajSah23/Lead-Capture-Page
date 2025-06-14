@@ -13,9 +13,9 @@ const HeroSection = () => {
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-8 leading-tight">
-            Exclusive AI, Robotics & Coding
+            The Ultimate AI, Robotics & STEM FunFest 
             <span className="block text-transparent bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text">
-              Experience at M3M Merlin
+              — Only at M3M Merlin Clubhouse!
             </span>
           </h2>
         </div>
