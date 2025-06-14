@@ -17,7 +17,7 @@ const teamMembers = [
       'An alumnus of IIT Kharagpur and ISB, Jatin has worked with brands like Zomato, Belong.co, JDA.',
     bgColor: 'bg-blue-200',
     image: 'https://i.ibb.co/3yQTF1XL/Whats-App-Image-2025-06-14-at-7-45-26-PM.jpg',
-    linkedin: 'https://linkedin.com/in/jatinluthra',
+    linkedin: 'https://www.linkedin.com/in/luthra/',
   },
 ];
 
