@@ -24,31 +24,31 @@ const HeroSection = () => {
         <div className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 mb-8 border border-gray-100">
           <div className="grid gap-8 md:grid-cols-3 text-center md:text-left">
             {/* Card 1 */}
-            <div>
+            {/* <div>
               <div className="bg-gradient-to-br from-blue-500 to-purple-600 w-16 h-16 mx-auto md:mx-0 rounded-full flex items-center justify-center mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-2">1:1 Personalized</h3>
               <p className="text-gray-600">Hyper-personalized live tutorials</p>
-            </div>
+            </div> */}
 
             {/* Card 2 */}
-            <div>
+            {/* <div>
               <div className="bg-gradient-to-br from-green-500 to-teal-600 w-16 h-16 mx-auto md:mx-0 rounded-full flex items-center justify-center mb-4">
                 <Rocket className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-2">Gamified Learning</h3>
               <p className="text-gray-600">Fun-filled interactive workshops</p>
-            </div>
+            </div> */}
 
             {/* Card 3 */}
-            <div>
+            {/* <div>
               <div className="bg-gradient-to-br from-orange-500 to-red-600 w-16 h-16 mx-auto md:mx-0 rounded-full flex items-center justify-center mb-4">
                 <Award className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-2">Global Certification</h3>
               <p className="text-gray-600">Internationally accredited programs</p>
-            </div>
+            </div> */}
           </div>
 
           {/* Description + CTA */}
