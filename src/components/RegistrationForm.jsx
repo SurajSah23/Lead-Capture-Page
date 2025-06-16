@@ -1,27 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Calendar } from 'lucide-react';
 
-const RegistrationForm = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = '//js.hsforms.net/forms/embed/v2.js';
-    script.type = 'text/javascript';
-    script.async = true;
-    script.onload = () => {
-      if (window.hbspt) {
-        window.hbspt.forms.create({
-          portalId: '7729491',
-          formId: '206d5801-69e0-4b05-a54e-0aad3ead61ec',
-          region: 'na1',
-          target: '#hubspot-form'
-        });
-      }
-    };
-    document.body.appendChild(script);
-  }, []);
-
+const GoogleFormEmbed = () => {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4">
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center md:text-left mb-10">
@@ -41,11 +23,22 @@ const RegistrationForm = () => {
                 <Calendar className="w-4 h-4 inline mr-2" />
                 Event Selection
               </label>
-              <p className="text-sm text-gray-500 mb-4">Fill out the HubSpot form below to register:</p>
+              <p className="text-sm text-gray-500 mb-4">Fill out the Google Form below to register:</p>
             </div>
 
-            {/* HubSpot form will render here */}
-            <div id="hubspot-form" className="space-y-4" />
+            {/* Embedded Google Form */}
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeKYAOJLnU9YumpUqd0LBJGh9Jq_mGG0v7B8QU7B06Jcr7Yaw/viewform?embedded=true"
+              width="100%"
+              height="500"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
+              className="w-full rounded-xl border"
+              title="Google Form"
+            >
+              Loading…
+            </iframe>
           </div>
         </div>
       </div>
@@ -53,4 +46,4 @@ const RegistrationForm = () => {
   );
 };
 
-export default RegistrationForm;
+export default GoogleFormEmbed;
